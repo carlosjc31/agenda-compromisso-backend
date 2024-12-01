@@ -49,4 +49,13 @@ public class AgendaService {
 
         repository.save(aux);
     }
+
+    public void delete(Long id){
+        if (repository.existsById(id)){
+            repository.deleteById(id);
+        } 
+        else {
+            throw new EntityNotFoundException("Agenda não encontrada");            
+        }
+    }
 }
