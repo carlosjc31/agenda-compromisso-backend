@@ -6,7 +6,7 @@ public record AgendaResponse(
     Long id,
     String title,
     String description,
-    LocalDateTime date,
+    LocalDateTime date_hora,
     String local
 ) {
     

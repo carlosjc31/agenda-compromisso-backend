@@ -15,7 +15,7 @@ public class Agenda {
     private Long id;
     private String title;
     private String description;
-    private LocalDateTime date;
+    private LocalDateTime date_hora;
     private String local;
 
 
@@ -37,11 +37,11 @@ public class Agenda {
     public void setDescription(String description) {
         this.description = description;
     }
-    public LocalDateTime getDate() {
-        return date;
+    public LocalDateTime getDate_hora() {
+        return date_hora;
     }
-    public void setDate(LocalDateTime date) {
-        this.date = date;
+    public void setDate_hora(LocalDateTime date_hora) {
+        this.date_hora = date_hora;
     }
     public String getLocal() {
         return local;
@@ -73,6 +73,8 @@ public class Agenda {
         return true;
     }
 
+    
+   
     
 
 }
