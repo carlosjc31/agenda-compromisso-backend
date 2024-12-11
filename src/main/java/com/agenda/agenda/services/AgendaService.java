@@ -44,7 +44,7 @@ public class AgendaService {
 
         aux.setTitle(agenda.title());
         aux.setDescription(agenda.description());
-        aux.setDate_hora(agenda.date_hora());
+        aux.setDate(agenda.date());
         aux.setLocal(agenda.local());
 
         repository.save(aux);

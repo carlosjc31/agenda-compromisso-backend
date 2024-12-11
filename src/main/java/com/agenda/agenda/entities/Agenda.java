@@ -15,7 +15,7 @@ public class Agenda {
     private Long id;
     private String title;
     private String description;
-    private LocalDateTime date_hora;
+    private LocalDateTime date;
     private String local;
 
 

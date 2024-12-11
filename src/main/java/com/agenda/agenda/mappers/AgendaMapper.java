@@ -10,7 +10,7 @@ public class AgendaMapper {
             agenda.getId(),
             agenda.getTitle(),
             agenda.getDescription(),
-            agenda.getDate_hora(),
+            agenda.getDate(),
             agenda.getLocal());
     }
 
@@ -19,7 +19,7 @@ public class AgendaMapper {
 
             agenda.setTitle(agendaRequest.title());
             agenda.setDescription(agendaRequest.description());
-            agenda.setDate_hora(agendaRequest.date_hora());
+            agenda.setDate(agendaRequest.date());
             agenda.setLocal(agendaRequest.local());
         
         return agenda;

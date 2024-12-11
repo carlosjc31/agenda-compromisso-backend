@@ -12,8 +12,8 @@ public record AgendaRequest(
     @NotBlank(message = "A descrição é obrigatória")
     String description,
 
-    @NotBlank(message = "A data e a hora é obrigatória")
-    LocalDateTime date_hora,
+    
+    LocalDateTime date,
 
     @NotBlank(message = "O local é obrigatório")
     String local
