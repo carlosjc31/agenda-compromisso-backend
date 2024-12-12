@@ -37,11 +37,11 @@ public class Agenda {
     public void setDescription(String description) {
         this.description = description;
     }
-    public LocalDateTime getDate_hora() {
-        return date_hora;
+    public LocalDateTime getDate() {
+        return date;
     }
-    public void setDate_hora(LocalDateTime date_hora) {
-        this.date_hora = date_hora;
+    public void setDate(LocalDateTime date) {
+        this.date = date;
     }
     public String getLocal() {
         return local;
